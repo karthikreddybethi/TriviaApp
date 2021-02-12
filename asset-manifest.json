@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/triviaapp/static/js/main.5c2d8e42.chunk.js",
+    "main.js.map": "/triviaapp/static/js/main.5c2d8e42.chunk.js.map",
+    "runtime-main.js": "/triviaapp/static/js/runtime-main.ccd54ae7.js",
+    "runtime-main.js.map": "/triviaapp/static/js/runtime-main.ccd54ae7.js.map",
+    "static/js/2.77297e92.chunk.js": "/triviaapp/static/js/2.77297e92.chunk.js",
+    "static/js/2.77297e92.chunk.js.map": "/triviaapp/static/js/2.77297e92.chunk.js.map",
+    "index.html": "/triviaapp/index.html",
+    "static/js/2.77297e92.chunk.js.LICENSE.txt": "/triviaapp/static/js/2.77297e92.chunk.js.LICENSE.txt",
+    "static/media/boosti.53f80cdb.gif": "/triviaapp/static/media/boosti.53f80cdb.gif",
+    "static/media/good-job.22b5d4b5.gif": "/triviaapp/static/media/good-job.22b5d4b5.gif",
+    "static/media/great-job.90360e23.gif": "/triviaapp/static/media/great-job.90360e23.gif",
+    "static/media/undraw_Music.aa500c44.svg": "/triviaapp/static/media/undraw_Music.aa500c44.svg",
+    "static/media/undraw_Vehicle_sale_a645.f7048411.svg": "/triviaapp/static/media/undraw_Vehicle_sale_a645.f7048411.svg",
+    "static/media/undraw_art_museum.6d671720.svg": "/triviaapp/static/media/undraw_art_museum.6d671720.svg",
+    "static/media/undraw_awards_fieb.d91166e8.svg": "/triviaapp/static/media/undraw_awards_fieb.d91166e8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ccd54ae7.js",
+    "static/js/2.77297e92.chunk.js",
+    "static/js/main.5c2d8e42.chunk.js"
+  ]
+}
