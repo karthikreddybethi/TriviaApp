@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/triviaapp/static/js/main.01a3c2ae.chunk.js",
-    "main.js.map": "/triviaapp/static/js/main.01a3c2ae.chunk.js.map",
+    "main.js": "/triviaapp/static/js/main.fca328bf.chunk.js",
+    "main.js.map": "/triviaapp/static/js/main.fca328bf.chunk.js.map",
     "runtime-main.js": "/triviaapp/static/js/runtime-main.ccd54ae7.js",
     "runtime-main.js.map": "/triviaapp/static/js/runtime-main.ccd54ae7.js.map",
-    "static/js/2.47e4b5b1.chunk.js": "/triviaapp/static/js/2.47e4b5b1.chunk.js",
-    "static/js/2.47e4b5b1.chunk.js.map": "/triviaapp/static/js/2.47e4b5b1.chunk.js.map",
+    "static/js/2.a18f6dd4.chunk.js": "/triviaapp/static/js/2.a18f6dd4.chunk.js",
+    "static/js/2.a18f6dd4.chunk.js.map": "/triviaapp/static/js/2.a18f6dd4.chunk.js.map",
     "index.html": "/triviaapp/index.html",
-    "static/js/2.47e4b5b1.chunk.js.LICENSE.txt": "/triviaapp/static/js/2.47e4b5b1.chunk.js.LICENSE.txt",
+    "static/js/2.a18f6dd4.chunk.js.LICENSE.txt": "/triviaapp/static/js/2.a18f6dd4.chunk.js.LICENSE.txt",
     "static/media/books.f58bb882.svg": "/triviaapp/static/media/books.f58bb882.svg",
     "static/media/boosti.53f80cdb.gif": "/triviaapp/static/media/boosti.53f80cdb.gif",
     "static/media/computer.d4942062.svg": "/triviaapp/static/media/computer.d4942062.svg",
@@ -25,7 +25,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ccd54ae7.js",
-    "static/js/2.47e4b5b1.chunk.js",
-    "static/js/main.01a3c2ae.chunk.js"
+    "static/js/2.a18f6dd4.chunk.js",
+    "static/js/main.fca328bf.chunk.js"
   ]
 }
