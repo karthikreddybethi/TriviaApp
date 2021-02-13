@@ -6,7 +6,7 @@ import {
   Typography,
   makeStyles,
 } from "@material-ui/core";
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useState } from "react";
 import { QuizContext } from "../QuizDataSharing/QuizContext";
 
 const useStyles = makeStyles((theme) => {
@@ -26,13 +26,7 @@ const useStyles = makeStyles((theme) => {
 
 export default function QuestionRender({ question, options, qNumber }) {
   const classes = useStyles();
-  const {
-    setUserAnswer,
-    userChoice,
-    setUserChoice,
-    userValue,
-    setUserValue,
-  } = useContext(QuizContext);
+  const { setUserValue } = useContext(QuizContext);
 
   const [value, setValue] = useState("");
 
@@ -45,13 +39,8 @@ export default function QuestionRender({ question, options, qNumber }) {
     });
   };
 
-  // console.log(qNumber);
-  // console.log(userValue);
-
   return (
     <Box
-      // width="80%"
-      // mx="auto"
       display="flex"
       flexDirection="column"
       justifyContent="center"

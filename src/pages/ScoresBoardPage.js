@@ -30,9 +30,6 @@ function ScoresBoardPage() {
   const [avgPerformance, setAvgPerformance] = useState(false);
   const [poorPerformance, setPoorPerformance] = useState(false);
 
-  // console.log(evaluatedAnswer.length);
-  // console.log(userChosenAnswers.length);
-
   useEffect(() => {
     let numberOfQuestions = Math.ceil(formattedQuestion.length / 2);
     let numberOfCorrectAnswers = evaluatedAnswer.length;

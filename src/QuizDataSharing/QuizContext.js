@@ -16,8 +16,7 @@ export const QuizProvider = (props) => {
       ? JSON.parse(localStorage.getItem("formattedQuestions"))
       : []
   );
-  console.log(apiData);
-  console.log(correctAnswers);
+
   let userChosenAnswers = [];
   let evaluatedAnswer = [];
   function handleSubmitQuestions() {
@@ -30,7 +29,6 @@ export const QuizProvider = (props) => {
 
   function evaluateAnswers() {
     correctAnswers.forEach((answer) => {
-      console.log(answer);
       userChosenAnswers.forEach((userAnswer) => {
         if (userAnswer === answer) {
           evaluatedAnswer.push(userAnswer);

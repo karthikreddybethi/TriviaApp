@@ -24,15 +24,8 @@ import Loading from "../components/Loading";
 export default function QuestionPage() {
   const {
     apiData,
-    setUserAnswer,
-    userAnswer,
-    userChoice,
-    setUserChoice,
-    userValue,
-    correctAnswers,
     setCorrectAnswers,
     handleSubmitQuestions,
-    userChosenAnswers,
     formattedQuestion,
     setFormattedQuestion,
   } = useContext(QuizContext);
@@ -46,8 +39,6 @@ export default function QuestionPage() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    console.log("loading");
-
     let newlyFormattedData = [];
     if (apiData === undefined) {
       setLoading(true);
@@ -87,13 +78,12 @@ export default function QuestionPage() {
           JSON.stringify(newlyFormattedData)
         );
         const newData = localStorage.getItem("formattedQuestions");
-        console.log(JSON.parse(newData));
+
         setFormattedQuestion(JSON.parse(newData));
       }
     }
 
     return () => {
-      // console.log("did mount");
       setCorrectAnswers([]);
     };
   }, [apiData]);
@@ -103,8 +93,6 @@ export default function QuestionPage() {
       setLoading(false);
     }
   });
-
-  console.log(formattedQuestion);
 
   return (
     <Box>
@@ -126,7 +114,6 @@ export default function QuestionPage() {
                 alignItems="center"
                 wrap="nowrap"
                 style={{
-                  // width: "90vw",
                   margin: "auto",
                   height: "100%",
                   overflow: "hidden",

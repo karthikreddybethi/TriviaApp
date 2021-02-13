@@ -26,15 +26,9 @@ const useStyles = makeStyles((theme) => ({
 
 function Art() {
   const classes = useStyles();
-  const {
-    value,
-    validate,
-    showError,
-    setValue,
-    apiData,
-    setShowError,
-    setApiData,
-  } = useContext(QuizContext);
+  const { value, validate, showError, setShowError, setApiData } = useContext(
+    QuizContext
+  );
   const { name } = useParams();
   let history = useHistory();
 
@@ -57,24 +51,15 @@ function Art() {
       showError.showTypeError === false
     ) {
       questions(topic);
-      // dataApi();
       history.push(`${url}/questionsPage`);
       setShowError({});
-    } else {
-      console.log("no call to api");
     }
-
-    return () => {
-      console.log("component unmounted");
-    };
   }, [showError]);
 
   function handleSubmit(e) {
     e.preventDefault();
     validate();
   }
-
-  // console.log(showError);
 
   return (
     <Switch>

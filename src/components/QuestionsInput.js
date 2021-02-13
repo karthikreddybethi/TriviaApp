@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import { TextField } from "@material-ui/core";
 import { QuizContext } from "../QuizDataSharing/QuizContext";
 
