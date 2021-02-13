@@ -44,13 +44,7 @@ function Art() {
     const response = await fetch(
       `https://opentdb.com/api.php?amount=${value.questions}&category=${topic}&difficulty=${value.category}&type=${value.type}`
     );
-
     const data = await response.json();
-    // console.log(data);
-    console.log(data);
-    // localStorage.setItem("data", JSON.stringify(data));
-    // let dataFromLocal = JSON.parse(localStorage.getItem("data"));
-    // console.log(dataFromLocal);
     return setApiData(data);
   };
 

@@ -9,7 +9,6 @@ const useStyles = makeStyles((theme) => {
   return {
     boxContainer: {
       [theme.breakpoints.up("md")]: {
-        height: "50vh",
         width: "100%",
       },
       [theme.breakpoints.down("md")]: {

@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./components/App";
-import "./index.js";
-
 import { QuizProvider } from "./QuizDataSharing/QuizContext";
+import { HashRouter as Router } from "react-router-dom";
 ReactDOM.render(
-  <QuizProvider>
-    <App />
-  </QuizProvider>,
+  <Router>
+    <QuizProvider>
+      <App />
+    </QuizProvider>
+  </Router>,
   document.getElementById("root")
 );

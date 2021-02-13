@@ -12,6 +12,7 @@ const useStyles = makeStyles((theme) => {
   return {
     root: {
       maxWidth: 300,
+      padding: "0.8rem",
       marginBottom: "16px",
       [theme.breakpoints.down("sm")]: {
         maxWidth: "initial",
